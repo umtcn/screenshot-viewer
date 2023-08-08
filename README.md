@@ -36,7 +36,15 @@ The application will run by default at http://localhost:3000.
 
 [Screenshots can be added here]
 
+## Contributions
+I welcome all kinds of contributions. If you want to improve the project or fix any issues, please open a Pull Request.
+
+## License
+This project is licensed under the MIT License. For more information, see the LICENSE file.
+
 ## Data File
+
+The language names and size keys in the JSON file should match the languages and sizes used in the project. Screenshots should be specified as arrays. If there are no screenshots for a particular size, the respective field can be an empty array.
 
 The JSON data file can be found in the `src` folder with the name `screenshots.json`. The structure of the file is as follows:
 
@@ -55,11 +63,3 @@ The JSON data file can be found in the `src` folder with the name `screenshots.j
     /* Screenshots for other languages and sizes */
   }
 }
-
-The language names and size keys in the JSON file should match the languages and sizes used in the project. Screenshots should be specified as arrays. If there are no screenshots for a particular size, the respective field can be an empty array.
-
-Contributions
-I welcome all kinds of contributions. If you want to improve the project or fix any issues, please open a Pull Request.
-
-License
-This project is licensed under the MIT License. For more information, see the LICENSE file.
