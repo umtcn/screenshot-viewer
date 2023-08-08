@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.language-dropdown {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+#language-select{
+  border: 0px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ccc
+}
+
+.screenshot-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.screenshot-size {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.screenshot-size h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.screenshots {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.screenshots img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
