@@ -34,7 +34,9 @@ The application will run by default at http://localhost:3000.
 
 ## Screenshots
 
-[Screenshots can be added here]
+![English](/public/english.png)
+![Turkish](/public/turkish.png)
+![Germany](/public/german.png)
 
 ## Demo
 
